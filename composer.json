@@ -1,0 +1,17 @@
+{
+    "name": "contao/music-academy",
+    "type": "contao-module",
+    "description": "Contao example website",
+    "license": "CC-BY-SA-4.0",
+    "require": {
+        "contao-community-alliance/composer-plugin": "~2.0"
+    },
+    "extra": {
+        "contao": {
+            "sources": {
+                "src/files/music_academy": "files/music_academy",
+                "src/templates/music_academy.sql": "templates/music_academy.sql"
+            }
+        }
+    }
+}
